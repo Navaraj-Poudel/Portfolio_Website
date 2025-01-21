@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Website/static/css/main.4ec364ae.css",
+    "main.js": "/Portfolio_Website/static/js/main.0ea1d484.js",
+    "static/js/453.22285d94.chunk.js": "/Portfolio_Website/static/js/453.22285d94.chunk.js",
+    "static/media/trek.JPG": "/Portfolio_Website/static/media/trek.540ac691816906beee4e.JPG",
+    "static/media/home.JPG": "/Portfolio_Website/static/media/home.21ed4a93a11d37c2bd7e.JPG",
+    "static/media/ehrms.png": "/Portfolio_Website/static/media/ehrms.f606e01c309ed5a3d349.png",
+    "static/media/c++.png": "/Portfolio_Website/static/media/c++.e3840907d97777f7601f.png",
+    "static/media/html.png": "/Portfolio_Website/static/media/html.dd273753240c22667862.png",
+    "static/media/newsapp.jpg": "/Portfolio_Website/static/media/newsapp.b3e1794a791f31534d42.jpg",
+    "static/media/textutils3.jpg": "/Portfolio_Website/static/media/textutils3.b7496a067b5ec2fabe1e.jpg",
+    "static/media/tailwind.png": "/Portfolio_Website/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
+    "static/media/agrobot.jpg": "/Portfolio_Website/static/media/agrobot.a6e98d17b50abbd1c4b9.jpg",
+    "static/media/adobephotoshop.png": "/Portfolio_Website/static/media/adobephotoshop.5bea1cfefc23110f17c9.png",
+    "static/media/c.png": "/Portfolio_Website/static/media/c.bbbbbabc8c191bfb99bf.png",
+    "static/media/python2.webp": "/Portfolio_Website/static/media/python2.7a9da81b5ea6a4550127.webp",
+    "static/media/bash.webp": "/Portfolio_Website/static/media/bash.2dd50bba50b982a14dfe.webp",
+    "index.html": "/Portfolio_Website/index.html",
+    "static/media/mongodb.svg": "/Portfolio_Website/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "main.4ec364ae.css.map": "/Portfolio_Website/static/css/main.4ec364ae.css.map",
+    "main.0ea1d484.js.map": "/Portfolio_Website/static/js/main.0ea1d484.js.map",
+    "453.22285d94.chunk.js.map": "/Portfolio_Website/static/js/453.22285d94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ec364ae.css",
+    "static/js/main.0ea1d484.js"
+  ]
+}
