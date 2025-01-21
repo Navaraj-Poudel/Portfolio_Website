@@ -1,0 +1,103 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.Home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 5vw;
+}
+
+.home-details {
+  font-size: 4rem; /* Increased font size */
+  font-weight: 700;
+  letter-spacing: .1rem;
+  width: 50%;
+  text-align: left;
+ 
+}
+
+.home-details strong {
+  font-size: 6rem; /* Increased font size for the name */
+  color: rgb(155, 72, 25);
+  font-family: "YADK4O60vp0 0", auto;
+}
+
+.home-details p {
+  margin-top: 1rem;   
+  font-size: 2.2rem; /* Increased font size for description */
+  color: #080202;
+}
+
+.homeimages {
+  width: 50%;
+  text-align: center;
+}
+
+.homeimages img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media(max-width: 1024px) {
+  .Home {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .home-details {
+    font-size: 3rem; /* Adjusted for medium screens */
+    text-align: center;
+    width: 100%;
+  }
+
+  .homeimages {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .homeimages img {
+    width: 60%;
+  }
+}
+
+@media(max-width: 768px) {
+  .home-details {
+    font-size: 2.5rem; /* Adjusted for smaller screens */
+  }
+
+  .homeimages img {
+    width: 70%;
+  }
+}
+
+@media(max-width: 480px) {
+  .Home {
+    padding: 0 2rem;
+  }
+
+  .home-details {
+    font-size: 2rem; /* Adjusted for small screens */
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .homeimages img {
+    width: 80%;
+  }
+}

@@ -1,0 +1,115 @@
+.projecttitle {
+    font-size: 3rem;
+    font-weight: 750;
+    margin: auto;
+    color: rgb(155, 72, 25);
+    margin-top: 0.4rem;
+    width: 7vw;
+    position: relative;
+}
+
+.projecttitle:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -25%;
+    transform: translateX(-30%);
+    width: 100px;
+    height: 4px;
+    background-color: rgb(155, 72, 25);
+    border-radius: 2px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+.projectbox {
+    flex: 1;
+    max-width: 30%;
+    min-width: 280px;
+}
+
+.project-card {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #D4DAD7;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    border: 2px double black;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 30vh; /* Reduced height for better balance */
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.projectdescription {
+    padding: 1.5rem; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+.projectdescription h2 {
+    font-size: 2rem; /* Slightly larger for better visibility */
+    font-weight: 600;
+    color: rgb(155, 72, 25);
+    margin-bottom: 1rem; /* Spacing between title and description */
+}
+
+.projectdescription p {
+    font-size: 1.6rem; /* Slightly larger for readability */
+    font-weight: 500;
+    color: black;
+    opacity: 90%;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+    .projectbox {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .projectbox {
+        max-width: 100%;
+    }
+    .project-card img {
+        height: 28vh; /* Adjusted for smaller screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .project-card img {
+        height: 25vh;
+    }
+
+    .projectdescription {
+        padding: 1.8rem;
+    }
+
+    .projectdescription h2 {
+        font-size: 2.4rem;
+    }
+
+    .projectdescription p {
+        font-size: 1.5rem;
+    }
+}

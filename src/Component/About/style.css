@@ -1,0 +1,132 @@
+/* About Title */
+.abouttitle {
+    font-size: 3rem;
+    font-weight: 750;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(155, 72, 25);
+    margin-top: 0.4rem;
+    width: 6vw;
+    animation: fadeIn 2s ease-in-out; /* Add animation to the About header */
+  }
+  .abouttitle:after {
+    content: '';
+    position: absolute;
+    left: 60%;
+    bottom: -25%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: rgb(155, 72, 25);
+    border-radius: 2px;
+  }
+  
+  /* Keyframes for fade-in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* About Section Layout */
+  .aboutsection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  
+  .aboutmyself {
+    margin: 0 auto;
+    width:85%;
+    text-align: center;
+  }
+  
+  
+  .aboutmyself p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: justify;
+    color: black;
+    /* opacity: 80%; */
+    margin-top: 1rem;
+    font-family: sans-serif;
+    
+  }
+  
+  /* Box Styling */
+  .educationbox,
+  .experiencebox,
+  .publicationbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .boxcontent {
+    background-color: #f4f4f9;
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto; /* Center the box */
+    width: 95%; /* Restrict the width to 80% */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .boxcontent h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color:rgb(155, 72, 25);
+  }
+  
+  .boxcontent p {
+    font-size: 1.8rem;
+    color: black;
+    /* text-align: justify; */
+    font-weight: bold;
+  }
+  
+  .boxcontent span {
+    font-size: 1.5rem;
+    font-weight:700;
+    color: black;
+  }
+  
+  /* Hover Effect */
+  .boxcontent:hover {
+    transform: scale(1.05); /* Make box slightly bigger */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Add deeper shadow */
+  }
+  
+  /* Section Headers */
+  .abouteducation h3,
+  .aboutexperience h3,
+  .aboutpublications h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(155, 72, 25);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  @media(max-width: 896px) {
+    .aboutsection {
+      padding: 0 20px;
+    }
+  
+    .aboutmyself {
+      margin-bottom: 2rem;
+      width: 100%;
+    }
+  
+    .boxcontent {
+      padding: 15px;
+    }
+  }
+  
