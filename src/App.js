@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <div>
-      <Router basename='/Portfolio_Website'>
+      <Router>
      <Navbar/>
      <Routes>
       <Route exact path='/' element= {<Home/>} />
