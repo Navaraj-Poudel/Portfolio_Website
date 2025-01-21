@@ -5,24 +5,21 @@ import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
 import Project from './Component/Project/Project';
 import Skills from './Component/Skills/Skills';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <div>
       <Router basename='/'>
-     <Navbar/>
-     <Routes>
-      <Route exact path='/' element= {<Home/>} />
-      <Route exact path='/about' element={<About/>}/>
-      <Route exact path='/contact' element={<Contact/>}/>
-      <Route exact path='/project' element={<Project/>}/>
-      <Route exact path='/skills' element={<Skills/>}/>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/project' element={<Project />} />
+          <Route path='/skills' element={<Skills />} />
         </Routes>
-         </Router>
+      </Router>
     </div>
   );
 }
