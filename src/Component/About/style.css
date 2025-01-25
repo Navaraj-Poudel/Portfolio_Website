@@ -49,13 +49,15 @@
   
   .aboutmyself p {
     font-size: 1.8rem;
-    font-weight: 550;
-    text-align: justify;
-    color: black;
-    /* opacity: 80%; */
-    margin-top: 1rem;
-    font-family: 'Fira Sans', sans-serif;
-    /* font-family: sans-serif; */
+  font-weight: 550; /* Lighter weight for smoother appearance */
+  text-align: justify;
+  color: black;
+  /* font-weight: bold; */
+  margin-top: 1rem;
+  font-family: 'Arial', sans-serif; /* More common sans-serif font for smoothness */
+  line-height: 1.6; /* Adds spacing between lines for better readability */
+  letter-spacing: 0.02em; /* Small space between letters for a smoother effect */
+  transition: all 0.3s ease; /* Adds smooth transition for any font style changes */
     
   }
   
