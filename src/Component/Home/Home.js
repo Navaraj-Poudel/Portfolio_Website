@@ -18,8 +18,12 @@ const Home = () => {
         <div className='home-details' data-aos="fade-right" data-aos-duration="1000">
           <p>
             <strong>Hello, I am Navaraj!</strong><br /> 
-            Master’s student in Information Assurance at St. Cloud State University, 
-            specializing in Network Security, with a background in Electronics, Communication & Information Engineering.
+            A cybersecurity enthusiast,
+                dedicated to securing systems
+              with innovation and precision. <br/>
+              <h2>
+              "Creating secure pathways in a connected world."
+</h2>
           </p>
         </div>
 

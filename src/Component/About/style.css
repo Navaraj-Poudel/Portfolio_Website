@@ -49,12 +49,13 @@
   
   .aboutmyself p {
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 550;
     text-align: justify;
     color: black;
     /* opacity: 80%; */
     margin-top: 1rem;
-    font-family: sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: sans-serif; */
     
   }
   

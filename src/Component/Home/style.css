@@ -32,12 +32,19 @@ body {
   font-size: 6rem; /* Increased font size for the name */
   color: rgb(155, 72, 25);
   font-family: "YADK4O60vp0 0", auto;
+  
 }
 
 .home-details p {
   margin-top: 1rem;   
   font-size: 2.2rem; /* Increased font size for description */
   color: #080202;
+}
+.home-details h2{
+  margin-top: 1.3rem;   
+  font-size: 2.2rem; /* Increased font size for description */
+  color: #080202;
+    font-weight: 600;
 }
 
 .homeimages {

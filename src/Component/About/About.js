@@ -17,11 +17,10 @@ const About = () => {
         <div className="aboutsection">
           <div className="aboutmyself">
             <p>
-            I am a graduated from the Institute of Engineering, Paschimanchal Campus, 
-            with hands-on experience in system and network engineering. Over the course of my career,
-             I have gained valuable experience in managing and securing network infrastructures. 
-             I have also contributed to the field with the publication of two research papers and am passionate about advancing my knowledge through research. 
-             Additionally, I hold certifications such as TestOut: Hybrid Server Pro Core and TestOut: Ethical Hacker Pro, which further strengthen my expertise in cybersecurity.
+            Graduate student in Information Assurance, specializing in Network Security, at Saint Cloud State University, with a background in Electronics, Communication, and Information Engineering.
+             Over the course of my career, I have gained valuable experience in managing and securing network infrastructures and have contributed to the field through the publication of two research papers.
+              Additionally, I hold certifications such as TestOut: Hybrid Server Pro Core and TestOut: Ethical Hacker Pro, which further solidify my expertise in cybersecurity. I am driven by solving complex challenges and advancing knowledge through research and innovation. 
+              Let’s connect if you're interested in collaborating on impactful cybersecurity projects.
             </p>
           </div> <br/>
 
